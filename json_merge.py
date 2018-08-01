@@ -8,7 +8,7 @@ import csv
 import json
 
 
-def Output_csv(Directory=False):
+def Output_json(Directory=False):
     val1 = []
     val2 = []
     id1 = []
@@ -43,4 +43,4 @@ def Output_csv(Directory=False):
 
 
 if __name__ == "__main__":
-    Output_csv(Directory="/home/silab62/HEP/Scripts/DaMedic/")
+    Output_json(Directory="/home/silab62/HEP/Scripts/DaMedic/")
